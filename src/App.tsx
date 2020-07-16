@@ -2,13 +2,8 @@ import React from 'react';
 import './App.css';
 import {Member} from "./pages/index";
 
-const App = () =>{
-  return (
-      <div>
+const App = () => <div>
           <Member/>
       </div>
-  )
-
-}
 
 export default App;
