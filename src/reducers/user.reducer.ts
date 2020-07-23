@@ -12,7 +12,7 @@ export function userReducers(state=initialState, action) {
             return {
                 user: action.user
             }
-        case userConstants.LOGIN_FAIL:
+        case userConstants.LOGIN_FAILURE:
             return{
 
             }
@@ -24,7 +24,7 @@ export function userReducers(state=initialState, action) {
             return {
                 user: action.user
             }
-        case userConstants.JOIN_FAIL:
+        case userConstants.JOIN_FAILURE:
             return{
 
             }
